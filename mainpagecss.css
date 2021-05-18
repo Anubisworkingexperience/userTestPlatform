@@ -1,0 +1,40 @@
+body{
+	background-color:#4BC382;
+}
+#yes{
+	display: flex;
+	justify-content: center;
+	font-size: 75px;
+	color: #DA0000;
+	font-family: "Century Gothic", sans-serif;
+}
+img{
+	height: 200px;
+	width: 200px;
+}
+#start{
+	size: 20px;
+	width: 200px;
+	height: 50px;
+	font-size: 25px;
+	background-color: #03414E;
+	color: #F0FFF0;
+	font-family: "Century Gothic", sans-serif;
+}
+.titles{
+	font-size: 25px;
+	color: black;
+	font-family: "Century Gothic", sans-serif;
+}
+#updatelog{
+	display: flex;
+	justify-content: center;
+	font-size: 75px;
+	color: #DA0000;
+	font-family: "Century Gothic", sans-serif;
+}
+.info{
+	font-size: 25px;
+	color: blue;
+	font-family: "Century Gothic", sans-serif;
+}
