@@ -1,0 +1,90 @@
+body{
+      background-color:#5D9FE4;
+   }
+  #task{
+    font-size: 150px;
+    font-family: "Century Gothic", sans-serif;
+    color: black;
+    text-align: center;
+
+  }
+  .block1{
+  	height: 125px;
+  	width: 49%;
+  	border: 3px solid black;
+  	float: right;
+  	border-radius: 25px;
+  	background-color: #B97342;
+  	text-align: center;
+  	margin-bottom:3px; 
+  	margin-left: 12px;
+  	position: relative;
+  	top: 140px;
+  	font-size: 50px;
+  	color: #F0FFF0;
+    font-family: "Century Gothic", sans-serif;
+  }
+    .block2{
+  	height: 125px;
+  	width: 49%;
+  	border: 3px solid black;
+  	float: right;
+  	border-radius: 25px;
+  	bottom: 15px;
+  	background-color: #B97342;
+  	text-align: center;
+  	margin-bottom:3px; 
+  	margin-left: 12px;
+  	position: relative;
+  	top: 150px;
+  	font-size: 50px;
+  	color: #F0FFF0;
+    font-family: "Century Gothic", sans-serif;
+  }
+table{
+	display: flex;
+	font-size: 25px;
+	color: black;
+	justify-content: center;
+	border: 3px solid black;
+	width: 100%;
+	font-family: "Century Gothic", sans-serif;
+} 
+.links{
+	font-size: 35px;
+	color: black;
+	font-family: "Century Gothic", sans-serif;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #68696B;
+  margin: 7% auto; /* 15% from the top and centered */
+  padding: 100px;
+  border: 3px solid black;
+  width: 40%; /* Could be more or less, depending on screen size */
+  font-family: "Century Gothic", sans-serif;
+  font-size: 50px;
+  color: #F0FFF0;
+}
+.retry{
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  background-color: #03414E;
+  color: #F0FFF0;
+  font-family: "Century Gothic", sans-serif;
+}
